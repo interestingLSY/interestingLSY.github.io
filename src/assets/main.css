@@ -1,0 +1,55 @@
+@import './base.css';
+
+body {
+	background-color: #fff;
+}
+
+#app {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: #44aacc;
+  transition: 0.4s;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items:start;
+  }
+
+  #app {
+    padding: 0 1rem;
+  }
+}
+
+.card-title {
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: #66ccff;
+	-webkit-text-decoration-color: #66ccff;
+}
+
+#card-awards b {
+  color: #d00 !important;
+}
