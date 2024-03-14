@@ -35,7 +35,7 @@ import { projects } from "@/data/projects"
           <v-card-text class="mt-4">
             <p>
               I am a junior student in <a href="https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm">Turing Class</a>
-              at the <a href="https://eecs.pku.edu.cn/en/">School of Electronic Engineering and Computer Science(EECS)</a>, <a href="https://english.pku.edu.cn/">Peking University</a>.
+              at the <a href="https://eecs.pku.edu.cn/en/">School of Electronic Engineering and Computer Science (EECS)</a>, <a href="https://english.pku.edu.cn/">Peking University</a>.
               <br />
               My advisor is Prof. <a href="https://xinjin.github.io/index.html">Xin Jin</a>, and my research interests include <b>Machine Learning Systems (MLSys)</b> and <b>Distributed Systems</b>.
               <br />
