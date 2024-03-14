@@ -45,6 +45,7 @@ import { projects } from "@/data/projects"
               <a href="mailto:shengyu.liu@stu.pku.edu.cn">Email</a> / 
               <a href="https://scholar.google.com/citations?hl=en&user=tkx4NIUAAAAJ">Google Scholar</a> / 
               <a href="https://github.com/interestingLSY">GitHub</a> / 
+              <a href="/cv.pdf">My CV</a> /
               <a href="/wechat-qrcode.png">WeChat</a>
             </div>
           </v-card-text>
