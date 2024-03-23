@@ -100,9 +100,7 @@ import { projects } from "@/data/projects"
             <v-list-item-title class="text-wrap">
               <h3 style="font-size: 17px" v-html="award.name"></h3>
             </v-list-item-title>
-            <v-list-item-subtitle>
-              <p style="font-size: 13px;" v-html="award.year + (award.description ? ', ' : '') + award.description"></p>
-            </v-list-item-subtitle>
+            <p style="font-size: 13px; white-space: normal; text-wrap: wrap; color: #999" v-html="award.year + (award.description ? ', ' : '') + award.description"></p>
           </v-list-item>
         </v-list>
       </v-card-text>
@@ -118,8 +116,8 @@ import { projects } from "@/data/projects"
         <v-row v-for="project in projects" class="mt-1">
           <v-col>
             <p><a :href="project.link" target="_blank" v-html="project.name" style="font-size: 17px"></a></p>
-            <p v-html="project.description" style="font-size: 14px; color: #888; margin-top: 2px;"></p>
-            <p v-html="project.time" style="font-size: 14px; color: #888; margin-top: 2px;"></p>
+            <p v-html="project.description" style="font-size: 14px; color: #999; margin-top: 2px;"></p>
+            <p v-html="project.time" style="font-size: 14px; color: #999; margin-top: 2px;"></p>
           </v-col>
         </v-row>
       </v-card-text>
