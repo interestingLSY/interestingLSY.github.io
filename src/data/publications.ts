@@ -15,7 +15,7 @@ const publications: Publication[] = [
 		time: "2023.12",
 		img_path: "/publications/DistAttention.png",
 		description: "We propose DistServe, a novel large language model serving system that disaggregates prefill and decoding to optimize goodput under certain latency constraints (SLOs).",
-		submit_status: "Submitted to OSDI'24",
+		submit_status: "In OSDI'24",
 		link: "https://arxiv.org/abs/2401.09670"
 	},
 	{
