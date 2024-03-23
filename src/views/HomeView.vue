@@ -39,7 +39,7 @@ import { projects } from "@/data/projects"
               <br />
               My advisor is Prof. <a href="https://xinjin.github.io/index.html">Xin Jin</a>, and my research interests include <b>Machine Learning Systems (MLSys)</b> and <b>Distributed Systems</b>.
               <br />
-              I was also the the team leader of the Peking University Supercomputing Team, and we won the <b>First Place</b> at the 10th ASC and the <b>Second Place</b> at SC23 (both are world famous Supercomputing competitions).
+              I was also the the team leader of the Peking University Supercomputing Team, and we won the <b>First Place</b> at the 10th ASC and the <b>Second Place</b> at SC23 (both are world top-3 Supercomputing competitions).
             </p>
             <div class="mt-6" style="text-align: center">
               <a href="mailto:shengyu.liu@stu.pku.edu.cn">Email</a> / 
