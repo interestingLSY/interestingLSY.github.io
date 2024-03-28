@@ -28,7 +28,7 @@ const awards: Award[] = [
 	{
 	  year: 2023,
 	  name: "National Scholarship",
-	  description: "<b>Highest Honor</b> for undergraduates in China, 8000 RMB. <b>Top 1%</b> in Peking University."
+	  description: "<b>Highest Honor</b> for undergraduates in China. <b>Top 1%</b> in Peking University."
 	},
 	{
 	  year: 2023,
@@ -43,7 +43,7 @@ const awards: Award[] = [
 	{
 	  year: 2022,
 	  name: "John Hopcroft Scholarship of Peking University",
-	  description: "3000 RMB"
+	  description: ""
 	},
 	{
 	  year: 2022,

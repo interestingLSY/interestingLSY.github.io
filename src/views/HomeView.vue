@@ -33,13 +33,15 @@ import { projects } from "@/data/projects"
             <h2 style="text-align: center;">Shengyu Liu | 刘胜与</h2>
           </v-card-title>
           <v-card-text class="mt-4">
-            <p>
+            <p style="margin-top: 14px;">
               I am a junior student in <a href="https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm">Turing Class</a>
-              at the <a href="https://eecs.pku.edu.cn/en/">School of Electronic Engineering and Computer Science (EECS)</a>, <a href="https://english.pku.edu.cn/">Peking University</a>.
-              <br />
+              at the <a href="https://eecs.pku.edu.cn/en/">School of EECS</a>, <a href="https://english.pku.edu.cn/">Peking University (PKU)</a>.
+            </p>
+            <p style="margin-top: 8px">
               My advisor is Prof. <a href="https://xinjin.github.io/index.html">Xin Jin</a>, and my research interests include <b>Machine Learning Systems (MLSys)</b> and <b>Distributed Systems</b>.
-              <br />
-              I was also the the team leader of the Peking University Supercomputing Team, and we won the <b>First Place</b> at the 10th ASC and the <b>Second Place</b> at SC23 (both are world top-3 Supercomputing competitions).
+            </p>
+            <p style="margin-top: 8px">
+              I was also the team leader of the Peking University Supercomputing Team, and we won the <b>First Place</b> at the 10th ASC and the <b>Second Place</b> at SC23 (both are world top-3 Supercomputing competitions).
             </p>
             <div class="mt-6" style="text-align: center">
               <a href="mailto:shengyu.liu@stu.pku.edu.cn">Email</a> / 
