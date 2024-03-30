@@ -35,16 +35,18 @@ import { projects } from "@/data/projects"
           <v-card-text class="mt-4">
             <p style="margin-top: 14px;">
               I am a junior student in <a href="https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm">Turing Class</a>
-              at the <a href="https://eecs.pku.edu.cn/en/">School of EECS</a>, <a href="https://english.pku.edu.cn/">Peking University (PKU)</a>.
+              at the <a href="https://eecs.pku.edu.cn/en/">School of EECS</a>, <a href="https://english.pku.edu.cn/">Peking University (PKU)</a> (2021.9-Present).
             </p>
             <p style="margin-top: 8px">
               My advisor is Prof. <a href="https://xinjin.github.io/index.html">Xin Jin</a>, and my research interests include <b>Machine Learning Systems (MLSys)</b> and <b>Distributed Systems</b>.
             </p>
             <p style="margin-top: 8px">
-              I was also the team leader of the Peking University Supercomputing Team, and we won the <b>First Place</b> at the 10th ASC and the <b>Second Place</b> at SC23 (both are world top-3 Supercomputing competitions).
+              I was also the <b>team leader</b> of the Peking University Supercomputing Team, and we won the <b>First Place</b> at the 10th ASC and the <b>Second Place</b> at SC23 (both are world top-3 Supercomputing competitions).
             </p>
             <div class="mt-6" style="text-align: center">
-              <a href="mailto:shengyu.liu@stu.pku.edu.cn">Email</a> / 
+              <p style="font-size: 15px;">
+                Email: <a href="mailto:shengyu.liu@stu.pku.edu.cn">shengyu.liu@stu.pku.edu.cn</a> <br />
+              </p>
               <a href="https://scholar.google.com/citations?hl=en&user=tkx4NIUAAAAJ">Google Scholar</a> / 
               <a href="https://github.com/interestingLSY">GitHub</a> / 
               <a href="/cv.pdf">My CV</a> /
@@ -84,6 +86,7 @@ import { projects } from "@/data/projects"
             <p v-html="publication.submit_status" style="font-size: 14px; color: #555; margin-top: 5px;"></p>
           </v-col>
         </v-row>
+        <p style="color: #888; font-size: 14px; margin-top: 20px;">*: Equal contribution</p>
       </v-card-item>
     </v-card-item>
   </v-card>
