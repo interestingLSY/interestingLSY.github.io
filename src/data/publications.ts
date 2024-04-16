@@ -10,6 +10,15 @@ interface Publication {
 
 const publications: Publication[] = [
 	{
+		title: "LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism",
+		authors: "Bingyang Wu, <b>Shengyu Liu</b>, Yinmin Zhong, Peng Sun, Xuanzhe Liu, Xin Jin",
+		time: "2024.4",
+		img_path: "/publications/LoongServe.png",
+		description: "We propose a new parallelism paradigm, elastic sequence parallelism (ESP), to elastically adapt to the variance between different requests and phases during large language model (LLM) serving. We also design and build an inference system, LoongServe.",
+		submit_status: "Submitted to SOSP'24",
+		link: "https://arxiv.org/abs/2404.09526"
+	},
+	{
 		title: "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
 		authors: "Yinmin Zhong, <b>Shengyu Liu</b>, Junda Chen, Yibo Zhu, Xuanzhe Liu, Xin Jin, Hao Zhang",
 		time: "2023.12",
