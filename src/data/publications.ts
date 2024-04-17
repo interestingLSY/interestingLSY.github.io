@@ -15,7 +15,7 @@ const publications: Publication[] = [
 		time: "2024.4",
 		img_path: "/publications/LoongServe.png",
 		description: "We propose a new parallelism paradigm, elastic sequence parallelism (ESP), to elastically adapt to the variance between different requests and phases during large language model (LLM) serving. We also design and build an inference system, LoongServe.",
-		submit_status: "Submitted to SOSP'24",
+		submit_status: "In submission",
 		link: "https://arxiv.org/abs/2404.09526"
 	},
 	{
