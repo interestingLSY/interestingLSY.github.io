@@ -33,7 +33,7 @@ const publications: Publication[] = [
 		time: "2023.9",
 		img_path: "/publications/FastServe.png",
 		description: "We propose FastGen, a distributed inference serving system for LLMs that exploits the autoregressive pattern of LLM inference to enable preemption at token-level granularity.",
-		submit_status: "Submitted to ATC'24",
+		submit_status: "In submission",
 		link: "https://arxiv.org/abs/2305.05920"
 	}
 ]
