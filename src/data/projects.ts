@@ -7,10 +7,16 @@ interface Project {
 
 const projects: Project[] = [
 	{
+		name: "SwiftLLM",
+		description: "A tiny yet powerful LLM inference system tailored for researching purpose.",
+		time: "2024.05",
+		link: "https://github.com/interestingLSY/swiftLLM"
+	},
+	{
 		name: "DistServe",
 		description: "A novel large language model serving system that disaggregates prefill and decoding to optimize goodput under certain latency constraints (SLOs). Built on SwiftTransformer.<br /><b>5000+</b> lines of Python.",
 		time: "2023.12",
-		link: "https://arxiv.org/abs/2401.09670"
+		link: "https://github.com/LLMServe/DistServe"
 	},
 	{
 		name: "SwiftTransformer",
