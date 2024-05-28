@@ -7,7 +7,7 @@ interface Award {
 const awards: Award[] = [
 	{
 		year: 2024,
-		name: "Champion at the 10th ASC Student Supercomputer Challenge",
+		name: "Champion at the 11th ASC Student Supercomputer Challenge",
 		description: "As an assistant team member. ASC is The largest student supercomputer competition in the world."
 	},
 	{
