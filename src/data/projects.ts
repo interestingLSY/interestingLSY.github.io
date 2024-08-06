@@ -8,7 +8,7 @@ interface Project {
 const projects: Project[] = [
 	{
 		name: "SwiftLLM",
-		description: "A tiny yet powerful LLM inference system tailored for researching purpose.",
+		description: "A tiny yet powerful LLM inference system tailored for researching purpose. vLLM-equivalent performance with only 2k lines of code (2% of vLLM).",
 		time: "2024.05",
 		link: "https://github.com/interestingLSY/swiftLLM"
 	},
