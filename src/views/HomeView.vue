@@ -38,7 +38,7 @@ import { projects } from "@/data/projects"
               at the <a href="https://eecs.pku.edu.cn/en/">School of EECS</a>, <a href="https://english.pku.edu.cn/">Peking University (PKU)</a> (2021.9-Present).
             </p>
             <p style="margin-top: 8px">
-              My advisor is Prof. <a href="https://xinjin.github.io/index.html">Xin Jin</a>, and my research interests include <b>Machine Learning Systems (MLSys)</b> and <b>Distributed Systems</b>.
+              My advisor is Prof. <a href="https://xinjin.github.io/index.html">Xin Jin</a>, and my research interests include <b>Machine Learning Systems (MLSys)</b>, <b>Machine Learning Compilers</b>, and <b>Distributed Systems</b>.
             </p>
             <p style="margin-top: 8px">
               I was also the <b>team leader</b> of the Peking University Supercomputing Team, and we won the <b>First Place</b> at the 10th ASC and the <b>Second Place</b> at SC23 (both are world top-3 Supercomputing competitions).
