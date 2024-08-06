@@ -13,6 +13,18 @@ const projects: Project[] = [
 		link: "https://github.com/interestingLSY/swiftLLM"
 	},
 	{
+		name: "Tiny SYSY Compiler",
+		description: "A compiler for the SYSY language (a subset of C). My homework for the course \"compiler principles\"",
+		time: "2024.04",
+		link: "https://github.com/interestingLSY/sysy-compiler"
+	},
+	{
+		name: "NeuroFrame",
+		description: "A DNN training framework written in C++/CUDA. Can train Resnet 150 with 95% of PyTorch's performance. My homework for the course \"programming in AI\".",
+		time: "2024.01",
+		link: "https://github.com/interestingLSY/NeuroFrame"
+	},
+	{
 		name: "DistServe",
 		description: "A novel large language model serving system that disaggregates prefill and decoding to optimize goodput under certain latency constraints (SLOs). Built on SwiftTransformer.<br /><b>5000+</b> lines of Python.",
 		time: "2023.12",
