@@ -22,7 +22,7 @@ const awards: Award[] = [
 	},
 	{
 		year: 2023,
-		name: "Second place at the SC23 Student Cluster Competition",
+		name: "Second Place at the SC23 Student Cluster Competition",
 		description: "As the <b>team leader</b>. SC (SuperComputing) is a world-famous conference for high-performance computing."
 	},
 	{
@@ -48,7 +48,7 @@ const awards: Award[] = [
 	{
 		year: 2023,
 		name: "Champion at the 10th ASC Student Supercomputer Challenge",
-		description: "As the <b>team leader</b>. ASC is The largest student supercomputer competition in the world."
+		description: "As the <b>team leader</b>. ASC is the largest student supercomputer competition in the world."
 	},
 	{
 		year: 2022,

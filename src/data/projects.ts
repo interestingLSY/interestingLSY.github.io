@@ -14,7 +14,7 @@ const projects: Project[] = [
 	},
 	{
 		name: "Tiny SYSY Compiler",
-		description: "A compiler for the SYSY language (a subset of C). My homework for the course \"compiler principles\"",
+		description: "A compiler for the SYSY language (a subset of C). My homework for the course \"compiler principles\". Got the first place in the performance benchmark.",
 		time: "2024.04",
 		link: "https://github.com/interestingLSY/sysy-compiler"
 	},
@@ -32,7 +32,7 @@ const projects: Project[] = [
 	},
 	{
 		name: "SwiftTransformer",
-		description: "SwiftTransformer is a tiny yet powerful and flexible implementation of the transformer neural network. It aims at providing a framework for researchers to try on their novel ideas.<br />During my junior year, my senior colleague and I implemented two of our ideas on FastServe and submitted papers based on those ideas to OSDI and ATC.<br /><b>10000+</b> lines of C++/CUDA.",
+		description: "SwiftTransformer is a tiny yet powerful and flexible implementation of the transformer neural network.<br /><b>10000+</b> lines of C++/CUDA.",
 		time: "2023.9",
 		link: "https://github.com/LLMServe/SwiftTransformer"
 	},
