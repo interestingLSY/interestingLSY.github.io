@@ -7,6 +7,11 @@ interface Award {
 const awards: Award[] = [
 	{
 		year: 2024,
+		name: "National Scholarship <span style='font-size: 10px; color: #444'>(again)</span>",
+		description: "<b>Highest Honor</b> for undergraduates in China. <b>Top 1%</b> in Peking University."
+	},
+	{
+		year: 2024,
 		name: "SenseTime Scholarship",
 		description: "<b>20 students per year across China</b>. SenseTime is a famous AI software provider in China."
 	},
