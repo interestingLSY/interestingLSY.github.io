@@ -28,6 +28,15 @@ const publications: Publication[] = [
 		link: "https://arxiv.org/abs/2401.09670"
 	},
 	{
+		title: "RLHFuse: Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion",
+		authors: "Yinmin Zhong*, Zili Zhang*, Bingyang Wu*, <b>Shengyu Liu</b>, Yukun Chen, Changyi Wan, Hanpeng Hu, Lei Xia, Ranchen Ming, Yibo Zhu, Xin Jin",
+		time: "2024.9",
+		img_path: "/publications/RLHFuse.png",
+		description: "RLHFuse breaks the traditional view of Reinforcement Learning from Human Feedback (RLHF) workflow as a composition of individual tasks, splitting each task into finer-grained subtasks, and performing stage fusion to improve GPU utilization.",
+		submit_status: "In submission",
+		link: "https://arxiv.org/abs/2409.13221"
+	},
+	{
 		title: "Iteration-Level Preemptive Scheduling for Large Language Model Inference",
 		authors: "Bingyang Wu*, Yinmin Zhong*, Zili Zhang*, <b>Shengyu Liu</b>, Fangyue Liu, Yuanhang Sun, Xuanzhe Liu, Xin Jin",
 		time: "2023.9",
