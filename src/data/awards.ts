@@ -12,6 +12,11 @@ const awards: Award[] = [
 	},
 	{
 		year: 2024,
+		name: "CCF Elite Collegiate Award",
+		description: "<b>Only 2 students per year</b> among students in Peking University."
+	},
+	{
+		year: 2024,
 		name: "SenseTime Scholarship",
 		description: "<b>20 students per year across China</b>. SenseTime is a famous AI software provider in China."
 	},
