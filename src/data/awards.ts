@@ -13,7 +13,7 @@ const awards: Award[] = [
 	{
 		year: 2024,
 		name: "CCF Elite Collegiate Award",
-		description: "<b>Only 2 students per year</b> among students in Peking University."
+		description: "<b>Only 2 award winners each year</b> at Peking University."
 	},
 	{
 		year: 2024,
