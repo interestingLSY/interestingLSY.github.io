@@ -37,11 +37,11 @@ const publications: Publication[] = [
 		link: "https://arxiv.org/abs/2409.13221"
 	},
 	{
-		title: "Iteration-Level Preemptive Scheduling for Large Language Model Inference",
+		title: "Fast Distributed Inference Serving for Large Language Models",
 		authors: "Bingyang Wu*, Yinmin Zhong*, Zili Zhang*, <b>Shengyu Liu</b>, Fangyue Liu, Yuanhang Sun, Xuanzhe Liu, Xin Jin",
 		time: "2023.9",
 		img_path: "/publications/FastServe.png",
-		description: "We propose FastGen, a distributed inference serving system for LLMs that exploits the autoregressive pattern of LLM inference to enable preemption at token-level granularity.",
+		description: "We propose FastServe, a distributed inference serving system for LLMs that exploits the autoregressive pattern of LLM inference to enable preemption at token-level granularity.",
 		submit_status: "In submission",
 		link: "https://arxiv.org/abs/2305.05920"
 	}
