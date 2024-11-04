@@ -7,6 +7,12 @@ interface Project {
 
 const projects: Project[] = [
 	{
+		name: "LoongServe",
+		description: "Efficiently serving long-context large language models with elastic sequence parallelism. <br />Paper in SOSP.",
+		time: "2024.05",
+		link: "https://github.com/interestingLSY/swiftLLM"
+	},
+	{
 		name: "SwiftLLM",
 		description: "A tiny yet powerful LLM inference system tailored for researching purpose. vLLM-equivalent performance with only 2k lines of code (2% of vLLM).",
 		time: "2024.05",
@@ -26,13 +32,13 @@ const projects: Project[] = [
 	},
 	{
 		name: "DistServe",
-		description: "A novel large language model serving system that disaggregates prefill and decoding to optimize goodput under certain latency constraints (SLOs). Built on SwiftTransformer.<br /><b>5000+</b> lines of Python.",
+		description: "Disaggregates prefill and decoding to optimize goodput under certain latency constraints (SLOs) for LLM serving. <br /><b>5000+</b> lines of Python. <br />Paper in OSDI.",
 		time: "2023.12",
 		link: "https://github.com/LLMServe/DistServe"
 	},
 	{
 		name: "SwiftTransformer",
-		description: "SwiftTransformer is a tiny yet powerful and flexible implementation of the transformer neural network.<br /><b>10000+</b> lines of C++/CUDA.",
+		description: "A tiny yet powerful and flexible implementation of the transformer neural network.<br /><b>10000+</b> lines of C++/CUDA.",
 		time: "2023.9",
 		link: "https://github.com/LLMServe/SwiftTransformer"
 	},

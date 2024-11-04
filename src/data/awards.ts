@@ -7,7 +7,7 @@ interface Award {
 const awards: Award[] = [
 	{
 		year: 2024,
-		name: "National Scholarship <span style='font-size: 10px; color: #444'>(again)</span>",
+		name: "National Scholarship <span style='font-size: 10px; color: #444'>(2024)</span>",
 		description: "<b>Highest Honor</b> for undergraduates in China. <b>Top 1%</b> in Peking University."
 	},
 	{
@@ -43,11 +43,11 @@ const awards: Award[] = [
 	{
 		year: 2023,
 		name: "Community Impact Award at the SC23 Student Cluster Competition",
-		description: ""
+		description: "For contribution to the open-source community, including contribution to the MLPerf project and the Zaychik Server project."
 	},
 	{
 		year: 2023,
-		name: "National Scholarship",
+		name: "National Scholarship <span style='font-size: 10px; color: #444'>(2023)</span>",
 		description: "<b>Highest Honor</b> for undergraduates in China. <b>Top 1%</b> in Peking University."
 	},
 	{

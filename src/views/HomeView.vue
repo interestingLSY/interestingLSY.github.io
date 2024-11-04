@@ -34,13 +34,13 @@ import { projects } from "@/data/projects"
           </v-card-title>
           <v-card-text class="mt-4">
             <p style="margin-top: 14px;">
-              I am a senior student from the <a href="https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm">Turing Class</a>, <a href="https://eecs.pku.edu.cn/en/">School of EECS</a>, <a href="https://english.pku.edu.cn/">Peking University (PKU)</a> (2021.9-Present).
+              I am currently a senior student in the <a href="https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm">Turing Class</a> at <a href="https://eecs.pku.edu.cn/en/">the School of EECS</a>, <a href="https://english.pku.edu.cn/">Peking University (PKU)</a>, enrolled since September 2021.
             </p>
             <p style="margin-top: 8px">
-              My advisor is Prof. <a href="https://xinjin.github.io/index.html">Xin Jin</a>, and my research interests include <b>Machine Learning Systems (MLSys)</b>, <b>Machine Learning Compilers</b>, and <b>Distributed Systems</b>.
+              Under the advisement of Prof. <a href="https://xinjin.github.io/index.html">Xin Jin</a>, my research focuses on <b>Machine Learning Systems (MLSys)</b>, <b>Machine Learning Compilers</b>, and <b>Distributed Systems</b>.
             </p>
             <p style="margin-top: 8px">
-              I was also the <b>team leader</b> of the Peking University Supercomputing Team, and we won the <b>First Place</b> at the 10th ASC and the <b>Second Place</b> at SC23 (both are world top-tier Supercomputing competitions).
+              I was also the <b>team leader</b> of the Peking University Supercomputing Team, and we won the <b>First Place</b> at the 10th ASC and the <b>Second Place</b> at SC23 (both are top-tier Supercomputing competitions in the world).
             </p>
             <div class="mt-6" style="text-align: center">
               <p style="font-size: 15px;">
