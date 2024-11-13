@@ -44,7 +44,7 @@ const projects: Project[] = [
 	},
 	{
 		name: "IntPool",
-		description: "A mining pool written in Nodejs. During the third year in my high school, I wrote a mining pool as a matter of interest.",
+		description: "A cryptocurrency mining pool written in Nodejs.",
 		time: "2021.7",
 		link: "https://github.com/interestingLSY/IntPool"
 	}
