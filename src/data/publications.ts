@@ -28,6 +28,15 @@ const publications: Publication[] = [
 		link: "https://arxiv.org/abs/2401.09670"
 	},
 	{
+		title: "A Multi-Level Superoptimizer for Tensor Programs",
+		authors: "Mengdi Wu, Xinhao Cheng, <b>Shengyu Liu</b>, Chunan Shi, Jianan Ji, Kit Ao, Praveen Velliengiri, Xupeng Miao, Oded Padon, Zhihao Jia",
+		time: "2024.12",
+		img_path: "/publications/Mirage.png",
+		description: "Mirage is a machine learning compiler that automatically generates fast GPU kernels without programming in Triton/CUDA.",
+		submit_status: "In submission",
+		link: "https://arxiv.org/abs/2405.05751"
+	},
+	{
 		title: "RLHFuse: Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion",
 		authors: "Yinmin Zhong*, Zili Zhang*, Bingyang Wu*, <b>Shengyu Liu</b>, Yukun Chen, Changyi Wan, Hanpeng Hu, Lei Xia, Ranchen Ming, Yibo Zhu, Xin Jin",
 		time: "2024.9",
