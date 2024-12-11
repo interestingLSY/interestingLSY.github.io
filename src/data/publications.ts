@@ -42,7 +42,7 @@ const publications: Publication[] = [
 		time: "2024.9",
 		img_path: "/publications/RLHFuse.png",
 		description: "RLHFuse breaks the traditional view of Reinforcement Learning from Human Feedback (RLHF) workflow as a composition of individual tasks, splitting each task into finer-grained subtasks, and performing stage fusion to improve GPU utilization.",
-		submit_status: "In submission",
+		submit_status: "In NSDI'25",
 		link: "https://arxiv.org/abs/2409.13221"
 	},
 	{
