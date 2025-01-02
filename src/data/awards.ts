@@ -7,6 +7,11 @@ interface Award {
 const awards: Award[] = [
 	{
 		year: 2024,
+		name: "Peking University Person of the Year (Nomination)",
+		description: ""
+	},
+	{
+		year: 2024,
 		name: "National Scholarship <span style='font-size: 10px; color: #444'>(2024)</span>",
 		description: "<b>Highest Honor</b> for undergraduates in China. <b>Top 1%</b> in Peking University."
 	},
