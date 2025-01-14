@@ -10,7 +10,7 @@ const projects: Project[] = [
 		name: "LoongServe",
 		description: "Efficiently serving long-context large language models with elastic sequence parallelism. <br />Paper in SOSP.",
 		time: "2024.05",
-		link: "https://github.com/interestingLSY/swiftLLM"
+		link: "https://github.com/LoongServe/LoongServe"
 	},
 	{
 		name: "SwiftLLM",
