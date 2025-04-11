@@ -34,7 +34,7 @@ import { projects } from "@/data/projects"
           </v-card-title>
           <v-card-text class="mt-4">
             <p style="margin-top: 14px;">
-              I am currently a senior student in the <a href="https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm">Turing Class</a> at <a href="https://eecs.pku.edu.cn/en/">the School of EECS</a>, <a href="https://english.pku.edu.cn/">Peking University (PKU)</a>, enrolled since September 2021.
+              I am currently working at <a href="https://www.deepseek.com/"><b>DeepSeek</b></a> while being a senior student in the <a href="https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm">Turing Class</a> at <a href="https://eecs.pku.edu.cn/en/">the School of EECS</a>, <a href="https://english.pku.edu.cn/"><b>Peking University (PKU)</b></a>, enrolled since September 2021.
             </p>
             <p style="margin-top: 8px">
               Under the advisement of Prof. <a href="https://xinjin.github.io/index.html">Xin Jin</a>, my research focuses on <b>Machine Learning Systems (MLSys)</b>, <b>Machine Learning Compilers</b>, and <b>Distributed Systems</b>.
