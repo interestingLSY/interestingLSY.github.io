@@ -44,7 +44,7 @@ import { projects } from "@/data/projects"
             </p>
             <div class="mt-6" style="text-align: center">
               <p style="font-size: 15px;">
-                Email: <a href="mailto:shengyu.liu@stu.pku.edu.cn">shengyu.liu@stu.pku.edu.cn</a> <br />
+                Email: <a href="mailto:shengyu.liu@stu.pku.edu.cn">shengyu.liu@stu.pku.edu.cn</a> / <a href="mailto:shengyuliu@deepseek.com">shengyuliu@deepseek.com</a><br />
               </p>
               <a href="https://scholar.google.com/citations?hl=en&user=tkx4NIUAAAAJ">Google Scholar</a> / 
               <a href="https://github.com/interestingLSY">GitHub</a> / 
