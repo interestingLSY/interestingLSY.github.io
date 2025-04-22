@@ -74,7 +74,7 @@ import { projects } from "@/data/projects"
       <v-card-item>
         <v-row v-for="publication in publications" class="mt-4">
           <v-col cols="12" md="3">
-            <v-img :src="publication.img_path" style="max-width: 280px;"></v-img>
+            <v-img :src="publication.img_path" style="max-width: 280px; margin-top: 10px"></v-img>
           </v-col>
           <v-divider vertical></v-divider>
           <v-col cols="12" md="9">
