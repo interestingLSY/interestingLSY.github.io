@@ -10,6 +10,15 @@ interface Publication {
 
 const publications: Publication[] = [
 	{
+		title: "A Deep-Dive Into the New Flash MLA Kernel",
+		authors: "Jiashi Li, <b>Shengyu Liu</b>",
+		time: "2025.4",
+		img_path: "/publications/FlashMLA.png",
+		description: "We present a new design and implementation of the Flash MLA kernel, which delivers 5% ~ 15% performance improvement on compute-bound workloads, achieving up to 660 TFlops on NVIDIA H800 SXM5 GPUs.",
+		submit_status: "On GitHub",
+		link: "https://github.com/deepseek-ai/FlashMLA/blob/a9444cd67d7dbbd5b1a5dc083657a155b88271b2/docs/20250422-new-kernel-deep-dive.md"
+	},
+	{
 		title: "LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism",
 		authors: "Bingyang Wu, <b>Shengyu Liu</b>, Yinmin Zhong, Peng Sun, Xuanzhe Liu, Xin Jin",
 		time: "2024.4",

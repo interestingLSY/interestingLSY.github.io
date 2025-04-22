@@ -7,6 +7,12 @@ interface Project {
 
 const projects: Project[] = [
 	{
+		name: "Flash MLA (2025.04.22 Performance Update)",
+		description: "Efficient MLA decoding kernels.",
+		time: "2025.04",
+		link: "https://github.com/deepseek-ai/FlashMLA"
+	},
+	{
 		name: "LoongServe",
 		description: "Efficiently serving long-context large language models with elastic sequence parallelism. <br />Paper in SOSP.",
 		time: "2024.05",
