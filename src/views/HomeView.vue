@@ -3,6 +3,7 @@ import { ref } from "vue"
 import { awards } from "@/data/awards"
 import { publications } from "@/data/publications"
 import { projects } from "@/data/projects"
+import { experiences } from "@/data/experiences"
 
 </script>
 
@@ -34,17 +35,11 @@ import { projects } from "@/data/projects"
           </v-card-title>
           <v-card-text class="mt-4">
             <p style="margin-top: 14px;">
-              I am currently working at <a href="https://www.deepseek.com/"><b>DeepSeek</b></a> while being a senior student in the <a href="https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm">Turing Class</a> at <a href="https://eecs.pku.edu.cn/en/">the School of EECS</a>, <a href="https://english.pku.edu.cn/"><b>Peking University (PKU)</b></a>, enrolled since September 2021.
-            </p>
-            <p style="margin-top: 8px">
-              Under the advisement of Prof. <a href="https://xinjin.github.io/index.html">Xin Jin</a>, my research focuses on <b>Machine Learning Systems (MLSys)</b>, <b>Machine Learning Compilers</b>, and <b>Distributed Systems</b>.
-            </p>
-            <p style="margin-top: 8px">
-              I was also the <b>team leader</b> of the Peking University Supercomputing Team, and we won the <b>First Place</b> at the 10th ASC and the <b>Second Place</b> at SC23 (both are top-tier Supercomputing competitions in the world).
+              I am currently working at <a href="https://www.deepseek.com/"><b>DeepSeek-AI</b></a> in Hangzhou, Zhejiang, China, focused on <b>Machine Learning Systems (MLSys)</b> and <b>kernel design & optimization</b>.
             </p>
             <div class="mt-6" style="text-align: center">
               <p style="font-size: 15px;">
-                Email: <a href="mailto:shengyu.liu@stu.pku.edu.cn">shengyu.liu@stu.pku.edu.cn</a> / <a href="mailto:shengyuliu@deepseek.com">shengyuliu@deepseek.com</a><br />
+                Email: <a href="mailto:shengyuliu@deepseek.com">shengyuliu@deepseek.com</a><br />
               </p>
               <a href="https://scholar.google.com/citations?hl=en&user=tkx4NIUAAAAJ">Google Scholar</a> / 
               <a href="https://github.com/interestingLSY">GitHub</a> / 
@@ -65,6 +60,27 @@ import { projects } from "@/data/projects"
       </v-card-title>
     </v-card-item>
   </v-card> -->
+
+  <v-card variant="text" class="mt-4" id="card-publications">
+    <v-card-item>
+      <v-card-title>
+        <h2 class="card-title">Experience</h2>
+      </v-card-title>
+      <v-card-item>
+        <v-row v-for="experience in experiences" class="mt-4">
+          <v-col cols="12" md="3" class="d-flex align-center justify-center">
+            <v-img :src="experience.img_path" style="max-width: 280px;"></v-img>
+          </v-col>
+          <v-divider vertical></v-divider>
+          <v-col cols="12" md="9">
+            <a :href="experience.link" target="_blank" v-html="experience.title" style="font-size: 24px; color: #111"></a>
+            <p v-html="experience.time" style="font-size: 14px; color: #555; margin-top: 5px;"></p>
+            <p v-html="experience.description" style="font-size: 16px; color: #555; margin-top: 5px;"></p>
+          </v-col>
+        </v-row>
+      </v-card-item>
+    </v-card-item>
+  </v-card>
 
   <v-card variant="text" class="mt-4" id="card-publications">
     <v-card-item>
