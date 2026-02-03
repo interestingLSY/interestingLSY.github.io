@@ -10,6 +10,15 @@ interface Publication {
 
 const publications: Publication[] = [
 	{
+		title: "DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models",
+		authors: "DeepSeek AI",
+		time: "2025.12",
+		img_path: "/publications/FlashMLA.png",
+		description: "We introduce DeepSeek-V3.2, a model that harmonizes high computational efficiency with superior reasoning and agent performance.",
+		submit_status: "On arXiv",
+		link: "https://arxiv.org/abs/2512.02556"
+	},
+	{
 		title: "A Deep Dive Into The Flash MLA FP8 Decoding Kernel on Hopper",
 		authors: "",
 		time: "2025.10",
