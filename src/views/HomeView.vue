@@ -44,7 +44,8 @@ import { experiences } from "@/data/experiences"
               <a href="https://scholar.google.com/citations?hl=en&user=tkx4NIUAAAAJ">Google Scholar</a> / 
               <a href="https://github.com/interestingLSY">GitHub</a> / 
               <a href="/cv-shengyuliu.pdf">My CV</a> /
-              <a href="/wechat-qrcode.png">WeChat</a>
+              <a href="/wechat-qrcode.png">WeChat（微信）</a> <br />
+              <a href="/wechat-offical-account-qrcode.jpg">WeChat Official Account（微信公众号）</a>
             </div>
           </v-card-text>
         </v-card-item>
