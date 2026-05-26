@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { ref } from "vue"
+import { useI18n } from 'vue-i18n'
 import { awards } from "@/data/awards"
 import { publications } from "@/data/publications"
 import { projects } from "@/data/projects"
 import { experiences } from "@/data/experiences"
 
+const { locale } = useI18n()
 </script>
 
 <template>
@@ -34,18 +35,17 @@ import { experiences } from "@/data/experiences"
             <h2 style="text-align: center;">Shengyu Liu | 刘胜与</h2>
           </v-card-title>
           <v-card-text class="mt-4">
-            <p style="margin-top: 14px;">
-              I am currently working at <a href="https://www.deepseek.com/"><b>DeepSeek-AI</b></a> in Hangzhou, Zhejiang, China, focused on <b>Machine Learning Systems (MLSys)</b> and <b>kernel design & optimization</b>.
+            <p style="margin-top: 14px;" v-html="$t('home.bio')">
             </p>
             <div class="mt-6" style="text-align: center">
               <p style="font-size: 15px;">
-                Email: <a href="mailto:shengyuliu@deepseek.com">shengyuliu@deepseek.com</a><br />
+                {{ $t('home.email') }}: <a href="mailto:shengyuliu@deepseek.com">shengyuliu@deepseek.com</a><br />
               </p>
-              <a href="https://scholar.google.com/citations?hl=en&user=tkx4NIUAAAAJ">Google Scholar</a> / 
-              <a href="https://github.com/interestingLSY">GitHub</a> / 
-              <a href="/cv-shengyuliu.pdf">My CV</a> /
-              <a href="/wechat-qrcode.png">WeChat（微信）</a> <br />
-              <a href="/wechat-offical-account-qrcode.jpg">WeChat Official Account（微信公众号）</a>
+              <a href="https://scholar.google.com/citations?hl=en&user=tkx4NIUAAAAJ">{{ $t('home.googleScholar') }}</a> /
+              <a href="https://github.com/interestingLSY">GitHub</a> /
+              <a href="/cv-shengyuliu.pdf">{{ $t('home.cv') }}</a> /
+              <a href="/wechat-qrcode.png">{{ $t('home.wechat') }}</a> <br />
+              <a href="/wechat-offical-account-qrcode.jpg">{{ $t('home.wechatOfficial') }}</a>
             </div>
           </v-card-text>
         </v-card-item>
@@ -54,18 +54,10 @@ import { experiences } from "@/data/experiences"
   </v-row>
   <v-divider class="mt-10 mb-4"></v-divider>
 
-  <!-- <v-card variant="text" class="mt-4" id="card-news">
-    <v-card-item>
-      <v-card-title>
-        <h2 class="card-title">News</h2>
-      </v-card-title>
-    </v-card-item>
-  </v-card> -->
-
   <v-card variant="text" class="mt-4" id="card-publications">
     <v-card-item>
       <v-card-title>
-        <h2 class="card-title">Experience</h2>
+        <h2 class="card-title">{{ $t('sections.experience') }}</h2>
       </v-card-title>
       <v-card-item>
         <v-row v-for="experience in experiences" class="mt-4">
@@ -74,9 +66,9 @@ import { experiences } from "@/data/experiences"
           </v-col>
           <v-divider vertical></v-divider>
           <v-col cols="12" md="9">
-            <a :href="experience.link" target="_blank" v-html="experience.title" style="font-size: 24px; color: #111"></a>
-            <p v-html="experience.time" style="font-size: 14px; color: #555; margin-top: 5px;"></p>
-            <p v-html="experience.description" style="font-size: 16px; color: #555; margin-top: 5px;"></p>
+            <a :href="experience.link[locale] || experience.link.en" target="_blank" v-html="experience.title[locale] || experience.title.en" style="font-size: 24px; color: #111"></a>
+            <p v-html="experience.time[locale] || experience.time.en" style="font-size: 14px; color: #555; margin-top: 5px;"></p>
+            <p v-html="experience.description[locale] || experience.description.en" style="font-size: 16px; color: #555; margin-top: 5px;"></p>
           </v-col>
         </v-row>
       </v-card-item>
@@ -86,7 +78,7 @@ import { experiences } from "@/data/experiences"
   <v-card variant="text" class="mt-4" id="card-publications">
     <v-card-item>
       <v-card-title>
-        <h2 class="card-title">Publications</h2>
+        <h2 class="card-title">{{ $t('sections.publications') }}</h2>
       </v-card-title>
       <v-card-item>
         <v-row v-for="publication in publications" class="mt-4">
@@ -97,12 +89,12 @@ import { experiences } from "@/data/experiences"
           <v-col cols="12" md="9">
             <a :href="publication.link" target="_blank" v-html="publication.title" style="font-size: 17px"></a>
             <p v-html="publication.authors" style="font-size: 14px"></p>
-            <p v-html="publication.description" style="font-size: 14px; color: #999; margin-top: 5px;"></p>
+            <p v-html="publication.description[locale] || publication.description.en" style="font-size: 14px; color: #999; margin-top: 5px;"></p>
             <p v-html="publication.time" style="font-size: 14px; color: #999; margin-top: 5px;"></p>
-            <p v-html="publication.submit_status" style="font-size: 14px; color: #555; margin-top: 5px;"></p>
+            <p v-html="publication.submit_status[locale] || publication.submit_status.en" style="font-size: 14px; color: #555; margin-top: 5px;"></p>
           </v-col>
         </v-row>
-        <p style="color: #888; font-size: 14px; margin-top: 20px;">*: Equal contribution</p>
+        <p style="color: #888; font-size: 14px; margin-top: 20px;">{{ $t('sections.equalContribution') }}</p>
       </v-card-item>
     </v-card-item>
   </v-card>
@@ -110,18 +102,18 @@ import { experiences } from "@/data/experiences"
   <v-card variant="text" class="mt-4" id="card-awards">
     <v-card-item>
       <v-card-title>
-        <h2 class="card-title">Awards</h2>
+        <h2 class="card-title">{{ $t('sections.awards') }}</h2>
       </v-card-title>
       <v-card-text class="mt-3">
         <v-list>
-          <v-list-item v-for="award in awards" :key="award.name" class="mt-1">
+          <v-list-item v-for="award in awards" :key="award.name.en" class="mt-1">
             <template v-slot:prepend>
               <v-icon icon="mdi-circle" size="10"></v-icon>
             </template>
             <v-list-item-title class="text-wrap">
-              <h3 style="font-size: 17px" v-html="award.name"></h3>
+              <h3 style="font-size: 17px" v-html="award.name[locale] || award.name.en"></h3>
             </v-list-item-title>
-            <p style="font-size: 13px; white-space: normal; text-wrap: wrap; color: #999" v-html="award.year + (award.description ? ', ' : '') + award.description"></p>
+            <p style="font-size: 13px; white-space: normal; text-wrap: wrap; color: #999" v-html="award.year + (award.description[locale] || award.description.en ? ', ' : '') + (award.description[locale] || award.description.en)"></p>
           </v-list-item>
         </v-list>
       </v-card-text>
@@ -131,13 +123,13 @@ import { experiences } from "@/data/experiences"
   <v-card variant="text" class="mt-2" id="card-projects">
     <v-card-item>
       <v-card-title>
-        <h2 class="card-title">Projects</h2>
+        <h2 class="card-title">{{ $t('sections.projects') }}</h2>
       </v-card-title>
       <v-card-text class="mt-3">
         <v-row v-for="project in projects" class="mt-1">
           <v-col>
-            <p><a :href="project.link" target="_blank" v-html="project.name" style="font-size: 17px"></a></p>
-            <p v-html="project.description" style="font-size: 14px; color: #999; margin-top: 2px;"></p>
+            <p><a :href="project.link" target="_blank" v-html="project.name[locale] || project.name.en" style="font-size: 17px"></a></p>
+            <p v-html="project.description[locale] || project.description.en" style="font-size: 14px; color: #999; margin-top: 2px;"></p>
             <p v-html="project.time" style="font-size: 14px; color: #999; margin-top: 2px;"></p>
           </v-col>
         </v-row>
@@ -145,22 +137,13 @@ import { experiences } from "@/data/experiences"
     </v-card-item>
   </v-card>
 
-  <!-- <v-card variant="text" class="mt-4" id="card-bio">
-    <v-card-item>
-      <v-card-title>
-        <h2 class="card-title">Bio</h2>
-
-      </v-card-title>
-    </v-card-item>
-  </v-card> -->
-
   <v-divider class="mt-10"></v-divider>
   <v-row class="mt-1" justify="center">
     <v-col align-self="center">
       <p style="text-align: center; font-size: 12px; color: #aaa; line-height: 1.5;">
-        <v-icon icon="mdi-xml"></v-icon> with <v-icon icon="mdi-heart"></v-icon> by Shengyu Liu <br />
-        Built on <a href="https://v3.vuejs.org/" target="_blank">Vue 3</a> and <a href="https://vuetifyjs.com/" target="_blank">Vuetify</a> <br />
-        Feel free to steal this website's source code at <a href="https://github.com/interestingLSY/interestingLSY.github.io" target="_blank">GitHub</a>
+        <v-icon icon="mdi-xml"></v-icon> with <v-icon icon="mdi-heart"></v-icon> by Shengyu Liu and DeepSeek-V4 <br />
+        <span v-html="$t('footer.builtWith')"></span> <br />
+        <span v-html="$t('footer.sourceCode')"></span>
       </p>
       <p style="text-align: center;" class="mt-2">
         <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Finterestinglsy.github.io&count_bg=%2388eeff&title_bg=%23DDDDDD&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a>

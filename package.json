@@ -13,6 +13,7 @@
     "@vueuse/core": "^10.9.0",
     "roboto-fontface": "*",
     "vue": "^3.3.0",
+    "vue-i18n": "^9.14.5",
     "vue-router": "^4.3.0",
     "vuetify": "^3.0.0"
   },

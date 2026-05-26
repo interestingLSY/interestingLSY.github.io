@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { ref } from "vue"
+import { useLocale } from '@/composables/useLocale'
+
+const { toggleLocale, locale } = useLocale()
 </script>
 
 <template>
@@ -8,14 +10,14 @@ import { ref } from "vue"
 	class="d-none d-md-block">
 		<template #default>
 			<v-spacer></v-spacer>
-			<v-btn 
+			<v-btn
 			to="/#card-overview"
 			class="mr-4 ml-4"
 			rounded="0"
 			variant="flat"
 			:active="false"
 			style="display: flex; align-items: center; height: 100%">
-				<span style="font-size: 20px;">Shengyu Liu</span>
+				<span style="font-size: 20px;">{{ $t('nav.name') }}</span>
 			</v-btn>
 			<v-divider vertical class="mr-8"></v-divider>
 			<v-btn
@@ -24,23 +26,15 @@ import { ref } from "vue"
 			prepend-icon="mdi-home"
 			:active="false"
 			>
-				Home
+				{{ $t('nav.home') }}
 			</v-btn>
-			<!-- <v-btn
-			to="/#card-bio"
-			class="mr-4"
-			prepend-icon="mdi-account"
-			:active="false"
-			>
-				Bio
-			</v-btn> -->
 			<v-btn
 			to="/#card-publications"
 			class="mr-4"
 			prepend-icon="mdi-bookshelf"
 			:active="false"
 			>
-				Publications
+				{{ $t('nav.publications') }}
 			</v-btn>
 			<v-btn
 			to="/#card-awards"
@@ -48,7 +42,7 @@ import { ref } from "vue"
 			prepend-icon="mdi-license"
 			:active="false"
 			>
-				Awards
+				{{ $t('nav.awards') }}
 			</v-btn>
 			<v-btn
 			to="/#card-projects"
@@ -56,10 +50,17 @@ import { ref } from "vue"
 			prepend-icon="mdi-hammer-screwdriver"
 			:active="false"
 			>
-				Projects
+				{{ $t('nav.projects') }}
+			</v-btn>
+			<v-btn
+			class="mr-4"
+			variant="text"
+			prepend-icon="mdi-translate"
+			@click="toggleLocale"
+			>
+         {{ locale === 'zh' ? 'English Mode' : '中文模式' }}
 			</v-btn>
 			<v-spacer></v-spacer>
 		</template>
-	</v-app-bar>    
-    
+	</v-app-bar>
 </template>
