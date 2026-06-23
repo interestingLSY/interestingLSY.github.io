@@ -12,6 +12,21 @@ interface Publication {
 
 const publications: Publication[] = [
 	{
+		title: "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+		authors: "DeepSeek AI",
+		time: "2026.04",
+		img_path: "/publications/FlashMLA.png",
+		description: {
+			en: "We present a preview version of DeepSeek-V4, a series of strong and efficient models",
+			zh: "我们提出 DeepSeek-V4 预览版，一个高效、智能的模型。"
+		},
+		submit_status: {
+			en: "On arXiv",
+			zh: "发表于 arXiv"
+		},
+		link: "https://arxiv.org/abs/2606.19348"
+	},
+	{
 		title: "DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models",
 		authors: "DeepSeek AI",
 		time: "2025.12",
